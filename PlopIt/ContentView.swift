@@ -9,47 +9,25 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @Environment(RouteViewModel.self) var routeView: RouteViewModel
 
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+        @Bindable var bindableRouteView = routeView
+        
+        NavigationStack(path: $bindableRouteView.navigationPath) {
+            Home()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .navigationDestination(for: Routes.self) { route in
+                    switch route {
+                        case .Game(let levelId):
+                            GameContentView(levelId: levelId)
+                        case .Settings:
+                            Text("Settings")
+                    case .Levels:
+                        Levels()
+                    case .Editor:
+                        LevelEditorView()
                     }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-        } detail: {
-            Text("Select an item")
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
             }
         }
     }
@@ -57,5 +35,6 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+        .environment(RouteViewModel())
+        .environment(LevelRepository())
 }

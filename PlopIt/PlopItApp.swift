@@ -6,27 +6,22 @@
 //
 
 import SwiftUI
-import SwiftData
 
 @main
 struct PlopItApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+    @State private var routeView = RouteViewModel()
+    @State private var levelRepository = LevelRepository()
 
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+    init() {
+        AdsManager.shared.start()
+    }
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .ignoresSafeArea()
         }
-        .modelContainer(sharedModelContainer)
+        .environment(routeView)
+        .environment(levelRepository)
     }
 }

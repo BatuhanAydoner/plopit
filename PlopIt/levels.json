@@ -1,0 +1,2441 @@
+{
+  "version": 11,
+  "levels": [
+    {
+      "id": 1,
+      "maxThrows": 3,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 68,
+        "x": 0.5,
+        "y": 0.72
+      },
+      "obstacles": [],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 50
+    },
+    {
+      "id": 2,
+      "maxThrows": 3,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 66,
+        "x": 0.68,
+        "y": 0.7
+      },
+      "obstacles": [],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 60
+    },
+    {
+      "id": 3,
+      "maxThrows": 3,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 64,
+        "x": 0.32,
+        "y": 0.7
+      },
+      "obstacles": [],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 70
+    },
+    {
+      "id": 4,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 62,
+        "x": 0.5,
+        "y": 0.74
+      },
+      "obstacles": [
+        {
+          "width": 180,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.42,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 80
+    },
+    {
+      "id": 5,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 60,
+        "x": 0.5,
+        "y": 0.76
+      },
+      "obstacles": [
+        {
+          "width": 120,
+          "height": 14,
+          "x": 0.32,
+          "y": 0.48,
+          "rotation": 0
+        },
+        {
+          "width": 120,
+          "height": 14,
+          "x": 0.68,
+          "y": 0.48,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 90
+    },
+    {
+      "id": 6,
+      "maxThrows": 2,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 58,
+        "x": 0.62,
+        "y": 0.73
+      },
+      "obstacles": [
+        {
+          "width": 14,
+          "height": 110,
+          "x": 0.42,
+          "y": 0.5,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 100
+    },
+    {
+      "id": 7,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 56,
+        "x": 0.5,
+        "y": 0.75
+      },
+      "obstacles": [
+        {
+          "width": 100,
+          "height": 14,
+          "x": 0.34,
+          "y": 0.38,
+          "rotation": 18
+        },
+        {
+          "width": 100,
+          "height": 14,
+          "x": 0.66,
+          "y": 0.38,
+          "rotation": -18
+        },
+        {
+          "width": 14,
+          "height": 80,
+          "x": 0.5,
+          "y": 0.55,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 110
+    },
+    {
+      "id": 8,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 54,
+        "x": 0.48,
+        "y": 0.78
+      },
+      "obstacles": [
+        {
+          "width": 140,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.36,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 100,
+          "x": 0.28,
+          "y": 0.54,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 100,
+          "x": 0.72,
+          "y": 0.54,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 120
+    },
+    {
+      "id": 9,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 52,
+        "x": 0.55,
+        "y": 0.77
+      },
+      "obstacles": [
+        {
+          "width": 110,
+          "height": 14,
+          "x": 0.38,
+          "y": 0.4,
+          "rotation": 12
+        },
+        {
+          "width": 110,
+          "height": 14,
+          "x": 0.62,
+          "y": 0.52,
+          "rotation": -12
+        },
+        {
+          "width": 14,
+          "height": 90,
+          "x": 0.5,
+          "y": 0.46,
+          "rotation": 0
+        },
+        {
+          "width": 80,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.64,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 130
+    },
+    {
+      "id": 10,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 50,
+        "x": 0.5,
+        "y": 0.8
+      },
+      "obstacles": [
+        {
+          "width": 130,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.34,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 95,
+          "x": 0.24,
+          "y": 0.5,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 95,
+          "x": 0.76,
+          "y": 0.5,
+          "rotation": 0
+        },
+        {
+          "width": 90,
+          "height": 14,
+          "x": 0.36,
+          "y": 0.58,
+          "rotation": 22
+        },
+        {
+          "width": 90,
+          "height": 14,
+          "x": 0.64,
+          "y": 0.58,
+          "rotation": -22
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 140
+    },
+    {
+      "id": 11,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 52,
+        "x": 0.58,
+        "y": 0.78
+      },
+      "obstacles": [
+        {
+          "width": 120,
+          "height": 14,
+          "x": 0.34,
+          "y": 0.36,
+          "rotation": 0
+        },
+        {
+          "width": 120,
+          "height": 14,
+          "x": 0.66,
+          "y": 0.5,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 100,
+          "x": 0.5,
+          "y": 0.62,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 150
+    },
+    {
+      "id": 12,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 50,
+        "x": 0.42,
+        "y": 0.79
+      },
+      "obstacles": [
+        {
+          "width": 14,
+          "height": 105,
+          "x": 0.32,
+          "y": 0.42,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 105,
+          "x": 0.68,
+          "y": 0.42,
+          "rotation": 0
+        },
+        {
+          "width": 100,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.58,
+          "rotation": 0
+        },
+        {
+          "width": 90,
+          "height": 14,
+          "x": 0.38,
+          "y": 0.68,
+          "rotation": -15
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 160
+    },
+    {
+      "id": 13,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 50,
+        "x": 0.5,
+        "y": 0.8
+      },
+      "obstacles": [
+        {
+          "width": 105,
+          "height": 14,
+          "x": 0.3,
+          "y": 0.38,
+          "rotation": 28
+        },
+        {
+          "width": 105,
+          "height": 14,
+          "x": 0.7,
+          "y": 0.38,
+          "rotation": -28
+        },
+        {
+          "width": 14,
+          "height": 90,
+          "x": 0.38,
+          "y": 0.58,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 90,
+          "x": 0.62,
+          "y": 0.58,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 170
+    },
+    {
+      "id": 14,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 48,
+        "x": 0.65,
+        "y": 0.76
+      },
+      "obstacles": [
+        {
+          "width": 140,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.34,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 110,
+          "x": 0.4,
+          "y": 0.5,
+          "rotation": 0
+        },
+        {
+          "width": 95,
+          "height": 14,
+          "x": 0.58,
+          "y": 0.55,
+          "rotation": 18
+        },
+        {
+          "width": 14,
+          "height": 85,
+          "x": 0.72,
+          "y": 0.66,
+          "rotation": 0
+        },
+        {
+          "width": 70,
+          "height": 14,
+          "x": 0.48,
+          "y": 0.7,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 180
+    },
+    {
+      "id": 15,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "target": {
+        "radius": 48,
+        "x": 0.5,
+        "y": 0.82
+      },
+      "obstacles": [
+        {
+          "width": 100,
+          "height": 14,
+          "x": 0.28,
+          "y": 0.36,
+          "rotation": 12
+        },
+        {
+          "width": 100,
+          "height": 14,
+          "x": 0.72,
+          "y": 0.36,
+          "rotation": -12
+        },
+        {
+          "width": 14,
+          "height": 95,
+          "x": 0.5,
+          "y": 0.48,
+          "rotation": 0
+        },
+        {
+          "width": 110,
+          "height": 14,
+          "x": 0.36,
+          "y": 0.62,
+          "rotation": -18
+        },
+        {
+          "width": 110,
+          "height": 14,
+          "x": 0.64,
+          "y": 0.62,
+          "rotation": 18
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 190
+    },
+    {
+      "id": 16,
+      "maxThrows": 6,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.78,
+        "y": 0.72
+      },
+      "target": {
+        "radius": 50,
+        "x": 0.28,
+        "y": 0.22
+      },
+      "obstacles": [
+        {
+          "width": 160,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.48,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 100,
+          "x": 0.42,
+          "y": 0.32,
+          "rotation": 0
+        },
+        {
+          "width": 90,
+          "height": 14,
+          "x": 0.3,
+          "y": 0.38,
+          "rotation": -20
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 200
+    },
+    {
+      "id": 17,
+      "maxThrows": 6,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.2,
+        "y": 0.55
+      },
+      "target": {
+        "radius": 48,
+        "x": 0.72,
+        "y": 0.55
+      },
+      "obstacles": [
+        {
+          "width": 14,
+          "height": 140,
+          "x": 0.46,
+          "y": 0.55,
+          "rotation": 0
+        },
+        {
+          "width": 100,
+          "height": 14,
+          "x": 0.46,
+          "y": 0.72,
+          "rotation": 0
+        },
+        {
+          "width": 100,
+          "height": 14,
+          "x": 0.46,
+          "y": 0.38,
+          "rotation": 0
+        },
+        {
+          "width": 80,
+          "height": 14,
+          "x": 0.62,
+          "y": 0.55,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 210
+    },
+    {
+      "id": 18,
+      "maxThrows": 6,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.78
+      },
+      "target": {
+        "radius": 50,
+        "x": 0.5,
+        "y": 0.2
+      },
+      "obstacles": [
+        {
+          "width": 95,
+          "height": 14,
+          "x": 0.32,
+          "y": 0.34,
+          "rotation": 25
+        },
+        {
+          "width": 95,
+          "height": 14,
+          "x": 0.68,
+          "y": 0.34,
+          "rotation": -25
+        },
+        {
+          "width": 14,
+          "height": 85,
+          "x": 0.36,
+          "y": 0.22,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 85,
+          "x": 0.64,
+          "y": 0.22,
+          "rotation": 0
+        },
+        {
+          "width": 70,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.42,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 220
+    },
+    {
+      "id": 19,
+      "maxThrows": 6,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.18,
+        "y": 0.18
+      },
+      "target": {
+        "radius": 48,
+        "x": 0.72,
+        "y": 0.76
+      },
+      "obstacles": [
+        {
+          "width": 110,
+          "height": 14,
+          "x": 0.4,
+          "y": 0.32,
+          "rotation": 32
+        },
+        {
+          "width": 110,
+          "height": 14,
+          "x": 0.55,
+          "y": 0.48,
+          "rotation": 32
+        },
+        {
+          "width": 110,
+          "height": 14,
+          "x": 0.7,
+          "y": 0.64,
+          "rotation": 32
+        },
+        {
+          "width": 14,
+          "height": 90,
+          "x": 0.58,
+          "y": 0.76,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 230
+    },
+    {
+      "id": 20,
+      "maxThrows": 6,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.82,
+        "y": 0.2
+      },
+      "target": {
+        "radius": 48,
+        "x": 0.5,
+        "y": 0.62
+      },
+      "obstacles": [
+        {
+          "width": 100,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.78,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 90,
+          "x": 0.32,
+          "y": 0.62,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 90,
+          "x": 0.68,
+          "y": 0.62,
+          "rotation": 0
+        },
+        {
+          "width": 70,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.48,
+          "rotation": 0
+        },
+        {
+          "width": 95,
+          "height": 14,
+          "x": 0.62,
+          "y": 0.34,
+          "rotation": -18
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 240
+    },
+    {
+      "id": 21,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.15,
+        "y": 0.75
+      },
+      "target": {
+        "radius": 46,
+        "x": 0.78,
+        "y": 0.24
+      },
+      "obstacles": [
+        {
+          "width": 120,
+          "height": 14,
+          "x": 0.38,
+          "y": 0.62,
+          "rotation": -22
+        },
+        {
+          "width": 120,
+          "height": 14,
+          "x": 0.55,
+          "y": 0.48,
+          "rotation": -22
+        },
+        {
+          "width": 120,
+          "height": 14,
+          "x": 0.72,
+          "y": 0.34,
+          "rotation": -22
+        },
+        {
+          "width": 14,
+          "height": 95,
+          "x": 0.62,
+          "y": 0.24,
+          "rotation": 0
+        },
+        {
+          "width": 80,
+          "height": 14,
+          "x": 0.78,
+          "y": 0.38,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 70,
+          "x": 0.42,
+          "y": 0.36,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 250
+    },
+    {
+      "id": 22,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.12
+      },
+      "target": {
+        "radius": 46,
+        "x": 0.5,
+        "y": 0.55
+      },
+      "obstacles": [
+        {
+          "width": 105,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.72,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 100,
+          "x": 0.3,
+          "y": 0.55,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 100,
+          "x": 0.7,
+          "y": 0.55,
+          "rotation": 0
+        },
+        {
+          "width": 75,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.4,
+          "rotation": 0
+        },
+        {
+          "width": 90,
+          "height": 14,
+          "x": 0.34,
+          "y": 0.28,
+          "rotation": 18
+        },
+        {
+          "width": 90,
+          "height": 14,
+          "x": 0.66,
+          "y": 0.28,
+          "rotation": -18
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 260
+    },
+    {
+      "id": 23,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.85,
+        "y": 0.55
+      },
+      "target": {
+        "radius": 44,
+        "x": 0.22,
+        "y": 0.55
+      },
+      "obstacles": [
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.52,
+          "y": 0.55,
+          "rotation": 0
+        },
+        {
+          "width": 110,
+          "height": 14,
+          "x": 0.52,
+          "y": 0.74,
+          "rotation": 0
+        },
+        {
+          "width": 110,
+          "height": 14,
+          "x": 0.52,
+          "y": 0.36,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 80,
+          "x": 0.36,
+          "y": 0.55,
+          "rotation": 0
+        },
+        {
+          "width": 70,
+          "height": 14,
+          "x": 0.36,
+          "y": 0.68,
+          "rotation": 0
+        },
+        {
+          "width": 70,
+          "height": 14,
+          "x": 0.36,
+          "y": 0.42,
+          "rotation": 0
+        },
+        {
+          "width": 85,
+          "height": 14,
+          "x": 0.68,
+          "y": 0.55,
+          "rotation": 15
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 270
+    },
+    {
+      "id": 24,
+      "maxThrows": 10,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.2,
+        "y": 0.2
+      },
+      "target": {
+        "radius": 44,
+        "x": 0.55,
+        "y": 0.78
+      },
+      "obstacles": [
+        {
+          "width": 100,
+          "height": 14,
+          "x": 0.35,
+          "y": 0.34,
+          "rotation": 40
+        },
+        {
+          "width": 100,
+          "height": 14,
+          "x": 0.48,
+          "y": 0.48,
+          "rotation": 40
+        },
+        {
+          "width": 100,
+          "height": 14,
+          "x": 0.61,
+          "y": 0.62,
+          "rotation": 40
+        },
+        {
+          "width": 95,
+          "height": 14,
+          "x": 0.55,
+          "y": 0.9,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 85,
+          "x": 0.38,
+          "y": 0.78,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 85,
+          "x": 0.72,
+          "y": 0.78,
+          "rotation": 0
+        },
+        {
+          "width": 70,
+          "height": 14,
+          "x": 0.55,
+          "y": 0.68,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 280
+    },
+    {
+      "id": 25,
+      "maxThrows": 7,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.82
+      },
+      "target": {
+        "radius": 44,
+        "x": 0.28,
+        "y": 0.28
+      },
+      "obstacles": [
+        {
+          "width": 130,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.58,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 110,
+          "x": 0.42,
+          "y": 0.42,
+          "rotation": 0
+        },
+        {
+          "width": 95,
+          "height": 14,
+          "x": 0.28,
+          "y": 0.42,
+          "rotation": -25
+        },
+        {
+          "width": 14,
+          "height": 75,
+          "x": 0.18,
+          "y": 0.28,
+          "rotation": 0
+        },
+        {
+          "width": 75,
+          "height": 14,
+          "x": 0.28,
+          "y": 0.16,
+          "rotation": 0
+        },
+        {
+          "width": 90,
+          "height": 14,
+          "x": 0.62,
+          "y": 0.42,
+          "rotation": 18
+        },
+        {
+          "width": 14,
+          "height": 90,
+          "x": 0.7,
+          "y": 0.7,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 290
+    },
+    {
+      "id": 26,
+      "maxThrows": 5,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.12,
+        "y": 0.82
+      },
+      "target": {
+        "radius": 40,
+        "x": 0.82,
+        "y": 0.18
+      },
+      "obstacles": [
+        {
+          "width": 130,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.68,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.68,
+          "y": 0.52,
+          "rotation": 0
+        },
+        {
+          "width": 110,
+          "height": 14,
+          "x": 0.58,
+          "y": 0.36,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 90,
+          "x": 0.7,
+          "y": 0.28,
+          "rotation": 0
+        },
+        {
+          "width": 85,
+          "height": 14,
+          "x": 0.72,
+          "y": 0.1,
+          "rotation": 0
+        },
+        {
+          "width": 95,
+          "height": 14,
+          "x": 0.32,
+          "y": 0.52,
+          "rotation": 28
+        },
+        {
+          "width": 14,
+          "height": 80,
+          "x": 0.42,
+          "y": 0.28,
+          "rotation": 0
+        },
+        {
+          "width": 70,
+          "height": 14,
+          "x": 0.28,
+          "y": 0.18,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 300
+    },
+    {
+      "id": 27,
+      "maxThrows": 10,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.88,
+        "y": 0.78
+      },
+      "target": {
+        "radius": 40,
+        "x": 0.15,
+        "y": 0.45
+      },
+      "obstacles": [
+        {
+          "width": 14,
+          "height": 130,
+          "x": 0.55,
+          "y": 0.55,
+          "rotation": 0
+        },
+        {
+          "width": 110,
+          "height": 14,
+          "x": 0.55,
+          "y": 0.78,
+          "rotation": 0
+        },
+        {
+          "width": 110,
+          "height": 14,
+          "x": 0.55,
+          "y": 0.32,
+          "rotation": 0
+        },
+        {
+          "width": 100,
+          "height": 14,
+          "x": 0.35,
+          "y": 0.55,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 95,
+          "x": 0.28,
+          "y": 0.45,
+          "rotation": 0
+        },
+        {
+          "width": 80,
+          "height": 14,
+          "x": 0.15,
+          "y": 0.58,
+          "rotation": 0
+        },
+        {
+          "width": 80,
+          "height": 14,
+          "x": 0.15,
+          "y": 0.32,
+          "rotation": 0
+        },
+        {
+          "width": 90,
+          "height": 14,
+          "x": 0.72,
+          "y": 0.55,
+          "rotation": -20
+        },
+        {
+          "width": 14,
+          "height": 70,
+          "x": 0.42,
+          "y": 0.18,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 500
+    },
+    {
+      "id": 28,
+      "maxThrows": 6,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "target": {
+        "radius": 38,
+        "x": 0.5,
+        "y": 0.72
+      },
+      "obstacles": [
+        {
+          "width": 120,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.28,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 100,
+          "x": 0.28,
+          "y": 0.48,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 100,
+          "x": 0.72,
+          "y": 0.48,
+          "rotation": 0
+        },
+        {
+          "width": 90,
+          "height": 14,
+          "x": 0.38,
+          "y": 0.48,
+          "rotation": 0
+        },
+        {
+          "width": 90,
+          "height": 14,
+          "x": 0.62,
+          "y": 0.48,
+          "rotation": 0
+        },
+        {
+          "width": 75,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.58,
+          "rotation": 0
+        },
+        {
+          "width": 85,
+          "height": 14,
+          "x": 0.32,
+          "y": 0.68,
+          "rotation": 22
+        },
+        {
+          "width": 85,
+          "height": 14,
+          "x": 0.68,
+          "y": 0.68,
+          "rotation": -22
+        },
+        {
+          "width": 14,
+          "height": 70,
+          "x": 0.5,
+          "y": 0.72,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 320
+    },
+    {
+      "id": 29,
+      "maxThrows": 10,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.22,
+        "y": 0.65
+      },
+      "target": {
+        "radius": 38,
+        "x": 0.75,
+        "y": 0.65
+      },
+      "obstacles": [
+        {
+          "width": 14,
+          "height": 140,
+          "x": 0.48,
+          "y": 0.55,
+          "rotation": 0
+        },
+        {
+          "width": 105,
+          "height": 14,
+          "x": 0.48,
+          "y": 0.78,
+          "rotation": 0
+        },
+        {
+          "width": 105,
+          "height": 14,
+          "x": 0.48,
+          "y": 0.32,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 100,
+          "x": 0.62,
+          "y": 0.65,
+          "rotation": 0
+        },
+        {
+          "width": 70,
+          "height": 14,
+          "x": 0.75,
+          "y": 0.78,
+          "rotation": 0
+        },
+        {
+          "width": 70,
+          "height": 14,
+          "x": 0.75,
+          "y": 0.52,
+          "rotation": 0
+        },
+        {
+          "width": 95,
+          "height": 14,
+          "x": 0.32,
+          "y": 0.42,
+          "rotation": -30
+        },
+        {
+          "width": 95,
+          "height": 14,
+          "x": 0.32,
+          "y": 0.78,
+          "rotation": 30
+        },
+        {
+          "width": 14,
+          "height": 60,
+          "x": 0.22,
+          "y": 0.28,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 330
+    },
+    {
+      "id": 30,
+      "maxThrows": 7,
+      "rethrowFromRest": true,
+      "ballStart": {
+        "x": 0.78,
+        "y": 0.12
+      },
+      "target": {
+        "radius": 36,
+        "x": 0.35,
+        "y": 0.82
+      },
+      "obstacles": [
+        {
+          "width": 115,
+          "height": 14,
+          "x": 0.42,
+          "y": 0.24,
+          "rotation": 35
+        },
+        {
+          "width": 115,
+          "height": 14,
+          "x": 0.55,
+          "y": 0.38,
+          "rotation": 35
+        },
+        {
+          "width": 115,
+          "height": 14,
+          "x": 0.68,
+          "y": 0.52,
+          "rotation": 35
+        },
+        {
+          "width": 130,
+          "height": 14,
+          "x": 0.5,
+          "y": 0.62,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 95,
+          "x": 0.22,
+          "y": 0.72,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 95,
+          "x": 0.48,
+          "y": 0.72,
+          "rotation": 0
+        },
+        {
+          "width": 80,
+          "height": 14,
+          "x": 0.35,
+          "y": 0.82,
+          "rotation": 0
+        },
+        {
+          "width": 80,
+          "height": 14,
+          "x": 0.35,
+          "y": 0.68,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 75,
+          "x": 0.62,
+          "y": 0.78,
+          "rotation": 0
+        },
+        {
+          "width": 65,
+          "height": 14,
+          "x": 0.72,
+          "y": 0.88,
+          "rotation": 0
+        }
+      ],
+      "completed": false,
+      "throwsToComplete": null,
+      "basePoints": 340
+    },
+    {
+      "ballStart": {
+        "x": 0.07,
+        "y": 0.04
+      },
+      "completed": false,
+      "id": 31,
+      "maxThrows": 8,
+      "obstacles": [
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.144,
+          "y": 0.095
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.67,
+          "y": 0.656
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.362,
+          "y": 0.71
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.52,
+          "y": 0.684
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.146,
+          "y": 0.271
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.145,
+          "y": 0.451
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.145,
+          "y": 0.632
+        },
+        {
+          "height": 14,
+          "rotation": 45,
+          "width": 150,
+          "x": 0.12,
+          "y": 0.865
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.464,
+          "y": 0.942
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.853,
+          "y": 0.942
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.842,
+          "y": 0.553
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.842,
+          "y": 0.375
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.842,
+          "y": 0.198
+        }
+      ],
+      "rethrowFromRest": true,
+      "target": {
+        "radius": 52,
+        "x": 0.435,
+        "y": 0.36
+      },
+      "basePoints": 350
+    },
+    {
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "completed": false,
+      "id": 32,
+      "maxThrows": 8,
+      "obstacles": [
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.503,
+          "y": 0.281
+        },
+        {
+          "height": 14,
+          "rotation": 75,
+          "width": 150,
+          "x": 0.769,
+          "y": 0.382
+        },
+        {
+          "height": 14,
+          "rotation": 285,
+          "width": 150,
+          "x": 0.234,
+          "y": 0.385
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.184,
+          "y": 0.582
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.816,
+          "y": 0.583
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.357,
+          "y": 0.689
+        },
+        {
+          "height": 14,
+          "rotation": 15,
+          "width": 150,
+          "x": 0.6,
+          "y": 0.571
+        }
+      ],
+      "rethrowFromRest": true,
+      "target": {
+        "radius": 52,
+        "x": 0.502,
+        "y": 0.382
+      },
+      "basePoints": 360
+    },
+    {
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "completed": false,
+      "id": 33,
+      "maxThrows": 10,
+      "obstacles": [
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.512,
+          "y": 0.212
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.715,
+          "y": 0.312
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.262,
+          "y": 0.386
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.443,
+          "y": 0.509
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.674,
+          "y": 0.42
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.217,
+          "y": 0.54
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.701,
+          "y": 0.687
+        }
+      ],
+      "rethrowFromRest": true,
+      "target": {
+        "radius": 52,
+        "x": 0.821,
+        "y": 0.58
+      },
+      "basePoints": 370
+    },
+    {
+      "ballStart": {
+        "x": 0.192,
+        "y": 0.028
+      },
+      "completed": false,
+      "id": 34,
+      "maxThrows": 9,
+      "obstacles": [
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.093,
+          "y": 0.097,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.093,
+          "y": 0.275,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.095,
+          "y": 0.451,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.235,
+          "y": 0.551,
+          "rotation": 90
+        },
+        {
+          "width": 150,
+          "height": 14,
+          "x": 0.488,
+          "y": 0.346,
+          "rotation": 0
+        },
+        {
+          "width": 150,
+          "height": 14,
+          "x": 0.6,
+          "y": 0.662,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.421,
+          "y": 0.562,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.268,
+          "y": 0.093,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.269,
+          "y": 0.273,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.658,
+          "y": 0.452,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.659,
+          "y": 0.234,
+          "rotation": 0
+        },
+        {
+          "width": 150,
+          "height": 14,
+          "x": 0.802,
+          "y": 0.632,
+          "rotation": 0
+        }
+      ],
+      "rethrowFromRest": true,
+      "target": {
+        "radius": 52,
+        "x": 0.475,
+        "y": 0.079
+      },
+      "throwsToComplete": null,
+      "basePoints": 380
+    },
+    {
+      "ballStart": {
+        "x": 0.808,
+        "y": 0.031
+      },
+      "completed": false,
+      "id": 35,
+      "maxThrows": 9,
+      "obstacles": [
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.907,
+          "y": 0.098,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.907,
+          "y": 0.276,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.905,
+          "y": 0.452,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.765,
+          "y": 0.552,
+          "rotation": 90
+        },
+        {
+          "width": 150,
+          "height": 14,
+          "x": 0.512,
+          "y": 0.347,
+          "rotation": 0
+        },
+        {
+          "width": 150,
+          "height": 14,
+          "x": 0.4,
+          "y": 0.663,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.579,
+          "y": 0.563,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.732,
+          "y": 0.094,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.731,
+          "y": 0.274,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.342,
+          "y": 0.453,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.341,
+          "y": 0.235,
+          "rotation": 0
+        },
+        {
+          "width": 150,
+          "height": 14,
+          "x": 0.198,
+          "y": 0.633,
+          "rotation": 0
+        },
+        {
+          "width": 14,
+          "height": 120,
+          "x": 0.512,
+          "y": 0.748,
+          "rotation": 0
+        }
+      ],
+      "rethrowFromRest": true,
+      "target": {
+        "radius": 50,
+        "x": 0.525,
+        "y": 0.081
+      },
+      "throwsToComplete": null,
+      "basePoints": 390
+    },
+    {
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "completed": false,
+      "id": 36,
+      "maxThrows": 8,
+      "obstacles": [
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.824,
+          "y": 0.507
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.175,
+          "y": 0.509
+        },
+        {
+          "height": 120,
+          "rotation": 30,
+          "width": 14,
+          "x": 0.25,
+          "y": 0.344
+        },
+        {
+          "height": 120,
+          "rotation": 150,
+          "width": 14,
+          "x": 0.748,
+          "y": 0.344
+        },
+        {
+          "height": 120,
+          "rotation": 90,
+          "width": 14,
+          "x": 0.499,
+          "y": 0.274
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.494,
+          "y": 0.648
+        },
+        {
+          "height": 120,
+          "rotation": 90,
+          "width": 14,
+          "x": 0.491,
+          "y": 0.622
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.505,
+          "y": 0.069
+        }
+      ],
+      "rethrowFromRest": true,
+      "target": {
+        "radius": 52,
+        "x": 0.5,
+        "y": 0.478
+      },
+      "basePoints": 400
+    },
+    {
+      "ballStart": {
+        "x": 0.706,
+        "y": 0.081
+      },
+      "completed": false,
+      "id": 37,
+      "maxThrows": 10,
+      "obstacles": [
+        {
+          "height": 120,
+          "rotation": 135,
+          "width": 14,
+          "x": 0.371,
+          "y": 0.081
+        },
+        {
+          "height": 120,
+          "rotation": 135,
+          "width": 14,
+          "x": 0.598,
+          "y": 0.209
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.727,
+          "y": 0.362
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.726,
+          "y": 0.538
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.503,
+          "y": 0.62
+        },
+        {
+          "height": 14,
+          "rotation": 30,
+          "width": 150,
+          "x": 0.328,
+          "y": 0.541
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.203,
+          "y": 0.381
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.426,
+          "y": 0.369
+        }
+      ],
+      "rethrowFromRest": true,
+      "target": {
+        "radius": 52,
+        "x": 0.157,
+        "y": 0.103
+      },
+      "basePoints": 410
+    },
+    {
+      "ballStart": {
+        "x": 0.482,
+        "y": 0.259
+      },
+      "completed": false,
+      "id": 38,
+      "maxThrows": 6,
+      "obstacles": [
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.484,
+          "y": 0.209
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.298,
+          "y": 0.322
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.296,
+          "y": 0.695
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.294,
+          "y": 0.51
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.648,
+          "y": 0.328
+        },
+        {
+          "height": 120,
+          "rotation": 90,
+          "width": 14,
+          "x": 0.472,
+          "y": 0.875
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.648,
+          "y": 0.516
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.648,
+          "y": 0.699
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.831,
+          "y": 0.738
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.098,
+          "y": 0.153
+        }
+      ],
+      "rethrowFromRest": true,
+      "target": {
+        "radius": 52,
+        "x": 0.485,
+        "y": 0.103
+      },
+      "basePoints": 420
+    },
+    {
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "completed": false,
+      "id": 39,
+      "maxThrows": 10,
+      "obstacles": [
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.355,
+          "y": 0.202
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.17,
+          "y": 0.097
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.357,
+          "y": 0.35
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.575,
+          "y": 0.278
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.922,
+          "y": 0.279
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.745,
+          "y": 0.524
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.235,
+          "y": 0.584
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.751,
+          "y": 0.422
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.036,
+          "y": 0.096
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.039,
+          "y": 0.284
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.257,
+          "y": 0.454
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.905,
+          "y": 0.632
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.682,
+          "y": 0.711
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.478,
+          "y": 0.753
+        }
+      ],
+      "rethrowFromRest": true,
+      "target": {
+        "radius": 52,
+        "x": 0.161,
+        "y": 0.693
+      },
+      "basePoints": 430
+    },
+    {
+      "ballStart": {
+        "x": 0.5,
+        "y": 0.13
+      },
+      "completed": false,
+      "id": 40,
+      "maxThrows": 10,
+      "obstacles": [
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.252,
+          "y": 0.159
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.648,
+          "y": 0.31
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.212,
+          "y": 0.507
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.766,
+          "y": 0.633
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.459,
+          "y": 0.42
+        },
+        {
+          "height": 120,
+          "rotation": 90,
+          "width": 14,
+          "x": 0.819,
+          "y": 0.46
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.772,
+          "y": 0.127
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.41,
+          "y": 0.254
+        },
+        {
+          "height": 120,
+          "rotation": 0,
+          "width": 14,
+          "x": 0.094,
+          "y": 0.164
+        },
+        {
+          "height": 14,
+          "rotation": 0,
+          "width": 150,
+          "x": 0.35,
+          "y": 0.684
+        }
+      ],
+      "rethrowFromRest": true,
+      "target": {
+        "radius": 52,
+        "x": 0.481,
+        "y": 0.546
+      },
+      "basePoints": 440
+    }
+  ]
+}
