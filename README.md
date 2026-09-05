@@ -9,4 +9,4 @@ The app uses third-party services that may collect information used to identify 
 - **Google AdMob:** Used to display advertisements. AdMob may collect device identifiers and usage data to serve personalized or non-personalized ads.
 
 ## Contact Us
-If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact us at: [iletisim@epostaniz.com]
+If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact us at: [batuhanaydoner.development.com]
